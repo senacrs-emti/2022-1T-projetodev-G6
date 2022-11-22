@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Sono;
+}
+
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    font-family: space mono;
+    letter-spacing: 3px;
+    font-size: 50px;
+    align-content: center;
+}
+
+
+
+@keyframes fadeIn{
+
+    to{
+        opacity: 1;
+    }
+
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.skip{
+    color: white;
+    font-family: Sono;
+}
+
+
+
+
+.container-jogo{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px ;
+    justify-content: center;
+    margin: 170px;
+}
+
+.corpo-carta:nth-child(1){
+    background-color: transparent;
+    border:3px solid greenyellow;
+    color: white;
+    width: 362px;
+    height: 602px;
+    text-align: center;
+    rotate: -30deg;
+
+}
+
+.corpo-carta:nth-child(2){
+    background-color: transparent;
+    border:3px solid red;
+    color: white;
+    width: 362px;
+    height: 602px;
+    text-align: center;
+    rotate: -10deg;
+
+}
+
+.corpo-carta:nth-child(3){
+    background-color: transparent;
+    border:3px solid yellow;
+    color: white;
+    width: 362px;
+    height: 602px;
+    text-align: center;
+    rotate: 10deg;
+    
+
+}
+
+.corpo-carta:nth-child(4){
+    background-color: transparent;
+    border:3px solid blue;
+    color: white;
+    width: 362px;
+    height: 602px;
+    text-align: center;
+    rotate: 20deg;
+
+}
+
+.elemento-simbolo{
+    font-size: 200px;
+    font-family: space mono;
+    text-align: center;
+
+}
+
+.elemento-nome{
+    font-size: 30px;
+}
+
+.elemento-dados{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.elemento-labels{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
