@@ -56,6 +56,27 @@ body{
     margin: 170px;
 }
 
+.front-face{
+
+}
+
+
+.back-face:nth-child(1){
+    background-color:greenyellow;
+}
+
+.back-face:nth-child(2){
+    background-color:red;
+}
+
+.back-face:nth-child(3){
+    background-color:yellow;
+}
+
+.back-face:nth-child(4){
+    background-color:blue;
+}
+
 .corpo-carta:nth-child(1){
     background-color: transparent;
     border:3px solid greenyellow;
@@ -63,7 +84,6 @@ body{
     width: 362px;
     height: 602px;
     text-align: center;
-    rotate: -30deg;
 
 }
 
@@ -74,7 +94,6 @@ body{
     width: 362px;
     height: 602px;
     text-align: center;
-    rotate: -10deg;
 
 }
 
@@ -85,9 +104,6 @@ body{
     width: 362px;
     height: 602px;
     text-align: center;
-    rotate: 10deg;
-    
-
 }
 
 .corpo-carta:nth-child(4){
@@ -97,7 +113,6 @@ body{
     width: 362px;
     height: 602px;
     text-align: center;
-    rotate: 20deg;
 
 }
 
